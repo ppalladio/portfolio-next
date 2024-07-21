@@ -404,7 +404,7 @@ export function Projects() {
                                                     </li>
                                                     <li>
                                                         <Link
-                                                            href="https://fullstack-booking-website.vercel.app/"
+                                                            href="https://bookin-demo.yuxuanize.com/"
                                                             target="_blank"
                                                             scroll={false}
                                                             className="flex flex-row justify-center items-center gap-2 text-lg text-slate-100"

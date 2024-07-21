@@ -32,7 +32,7 @@ const CvEn = () => {
                 <h1 className="font-bold text-[7rem]  text-gray-300">
                     Yuxuan Peng
                 </h1>
-                <AnimatedTooltip items={icons}  />
+                <AnimatedTooltip items={icons} />
             </header>
             {/* labor	 */}
             <Separator className="w-[80vw] text-center" />
@@ -260,25 +260,28 @@ const CvEn = () => {
             </div>
             <Separator />
             {/* Language */}
-            <div className=" my-10 mx-5 space-y-5 flex flex-col lg:flex-row lg:items-center lg:justify-evenly items-center justify-center">
-                <span className="uppercase relative">
-                    <h4>mandarin</h4>
-                    <p className="absolute  text-2xl font-[700] top-2 left-4 text-gray-300">
-                        Native
-                    </p>
-                </span>
-                <span className="uppercase relative">
-                    <h4>English</h4>
-                    <p className="absolute  text-2xl font-[700] top-2 left-4 text-gray-300">
-                        Bilingual
-                    </p>
-                </span>
-                <span className="uppercase relative">
-                    <h4>mandarin</h4>
-                    <p className="absolute  text-2xl font-[700] top-2 left-4 text-gray-300">
-                        Advan<span className="text-gray-500">ced/B2</span>
-                    </p>
-                </span>
+            <div className="my-10 mx-5 ">
+                <h4 className="text-2xl font-bold ">Language</h4>
+                <div className=" space-y-5 flex flex-col lg:flex-row lg:items-center lg:justify-evenly items-center justify-center">
+                    <span className="uppercase relative">
+                        <h4>mandarin</h4>
+                        <p className="absolute  text-2xl font-[700] top-2 left-4 text-gray-300">
+                            Native
+                        </p>
+                    </span>
+                    <span className="uppercase relative">
+                        <h4>English</h4>
+                        <p className="absolute  text-2xl font-[700] top-2 left-4 text-gray-300">
+                            Bilingual
+                        </p>
+                    </span>
+                    <span className="uppercase relative">
+                        <h4>mandarin</h4>
+                        <p className="absolute  text-2xl font-[700] top-2 left-4 text-gray-300">
+                            Advan<span className="text-gray-500">ced/B2</span>
+                        </p>
+                    </span>
+                </div>
             </div>
         </div>
     );
